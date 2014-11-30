@@ -1,0 +1,16 @@
+{
+    "name": "recipe-cms-server",
+    "description": "Server for Recipe CMS",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "body-parser": "^1.9.3",
+        "express": "^4.10.4"
+    },
+    "devDependencies": {
+        "nodemon": "^1.2.1"
+    },
+    "scripts": {
+        "start": "nodemon app.js"
+    }
+}
