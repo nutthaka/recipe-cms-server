@@ -1,0 +1,80 @@
+{
+    "name": "Grilled Squid Salad",
+    "serving": "6",
+    "ingredient": [
+        {
+            "name": "squid, cleaned (or cuttlefish)",
+            "quantity" :"500g"
+        },
+        {
+            "name": "fish sauce",
+            "quantity" :"1 tablespoon"
+        },
+        {
+            "name": "vegetable oil (for marinade)",
+            "quantity" :"1 tablespoon"
+        },
+        {
+            "name": "vegetable oil (for frying)",
+            "quantity" :""
+        },
+        {
+            "name": "garlic, peeled and sliced",
+            "quantity" :"2 cloves"
+        },
+        {
+            "name": "lime juice",
+            "quantity" :"2 tablespoons"
+        },
+        {
+            "name": "caster sugar (or plain white sugar)",
+            "quantity" :"1 tablespoon"
+        },
+        {
+            "name": "small red chillies, seeded and chopped",
+            "quantity" :"2"
+        },
+        {
+            "name": "witlof, leaves separated",
+            "quantity" :"1 head"
+        },
+        {
+            "name": "baby rocket",
+            "quantity" :"50g"
+        },
+        {
+            "name": "green oakleaf lettuce, torn to pieces",
+            "quantity" :"1/4 lettuce"
+        },
+        {
+            "name": "small Lebanese cucumber, sliced",
+            "quantity" :"1 cucumber"
+        },
+        {
+            "name": "green papaya, peeled and seeded, then grated or thinly sliced",
+            "quantity" :"1/4 papaya"
+        },
+        {
+            "name": "coriander",
+            "quantity" :"1 bunch"
+        },
+        {
+            "name": "mint",
+            "quantity" :"1 bunch"
+        },
+        {
+            "name": "Thai basil",
+            "quantity" :"1 bunch"
+        }
+],
+    "method": [
+        "score the inside of the squid tubes with angled cuts, turn and repeat so that the pieces form a crosshatched pattern (this is called ‘honeycombing’). Slice into bite-sized pieces.",
+        "combine fish sauce and 1 tbsp vegetable oil and marinade the squid, including tentacles, for 30 minutes.",
+        "meanwhile, heat vegetable oil and fry garlic until golden.",
+        "combine lime juice, sugar, chillies, and the fried garlic to create the dressing.",
+        "arrange witlof, baby rocket, lettuce leaves, sliced cucumber, green papaya, and herbs separately on a servingplatter.",
+        "heat a char-grill (or frying pan) and grill the squid over high heat until opaque and slightly charred, about one-two minutes on each side.",
+        "add squid to dressing and toss to combine.",
+        "serve squid immediately, accompanied by the salad platter."
+    ]
+}
