@@ -1,0 +1,3 @@
+web: node index.js
+
+# rename to Procfile to tell Heroku how to run this App
