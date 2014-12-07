@@ -1,3 +1,10 @@
 language: node_js
 node_js:
- - "0.10"
+- '0.10'
+deploy:
+  provider: heroku
+  api_key:
+    secure: EXPv1HHGzkIeVy5oE6yPP844UgJ3jcs47GGyOs/McJ724wcPCJtyZRybToCAm3b7PboCIrNh1xKDgFsWtISAbnwTG4GR3WojTEVtxfv2NQ62ok7hv34F7g/Q/k6wH0aRJFiIo9ng/TyVSufJz6TS6DYBJ5Ek1rWQNvRoS4QWh+U=
+  app: recipe-cms-server
+  on:
+    repo: nutthaka/recipe-cms-server
