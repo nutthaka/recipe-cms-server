@@ -17,7 +17,7 @@ describe("recipe api", function () {
     });
 
     it("should return http status 200", function (done) {
-        var url = "http://localhost:" + port + "/recipe/chicken-skewers";
+        var url = "http://localhost:" + port + "/recipes/chicken-skewers";
         request.get(url, function (error, response, body) {
             expect(response.statusCode).to.equal(200);
             done();
