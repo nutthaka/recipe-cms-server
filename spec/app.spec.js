@@ -18,9 +18,13 @@ describe("recipe api", function () {
         });
     });
 
-    it("should return http status 200", function (done) {
-        request.get(baseRecipeUrl + "/chicken-skewers", function (error, response, body) {
+    it("should return http status 200 and recipe name", function (done) {
+        request.get({
+            url: baseRecipeUrl + "/chicken-skewers",
+            json: true
+        }, function (error, response, body) {
             expect(response.statusCode).to.equal(200);
+            expect(body.name).to.equal("Pistachio-crusted chicken skewers");
             done();
         });
     });
