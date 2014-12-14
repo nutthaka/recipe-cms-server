@@ -3,10 +3,12 @@
 var express = require("express");
 var bodyParser = require("body-parser");
 var fs = require("fs");
+var cors = require("cors");
 
 var app = express();
 
 app.use(bodyParser.json());
+app.use(cors());
 
 app.get("/", function (req, res) {
     console.log("Hello Mars!")
