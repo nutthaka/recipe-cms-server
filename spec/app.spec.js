@@ -38,6 +38,9 @@ describe("recipe api", function () {
             console.log(body.length);
             expect(response.statusCode).to.equal(200);
             expect(body).to.have.length.above(0);
+            body.forEach(function (item) {
+                expect(item).to.not.contain(".json");
+            });
             done();
         });
     });

@@ -17,19 +17,18 @@ app.get("/", function (req, res) {
 
 app.get("/recipes/:name", function (req, res) {
     var recipeName = req.params.name;
-//    var recipe = require('./recipes/' + recipeName);
-//    console.log(recipe.name);
-//    res.send(recipe);
-
     res.sendFile(__dirname + "/recipes/" + recipeName + ".json");
 });
 
 app.get("/recipes", function (req, res) {
-    fs.readdir(__dirname + "/recipes", function (err, files) {
+    fs.readdir(__dirname + "/recipes", function (err, filenames) {
         if (err) {
             return res.status(500).send("Error reading recipes. " + err);
         }
-        res.send(files);
+        var names = filenames.map(function (name) {
+            return name.split(".")[0];
+        });
+        res.send(names);
     });
 });
 module.exports = app;
